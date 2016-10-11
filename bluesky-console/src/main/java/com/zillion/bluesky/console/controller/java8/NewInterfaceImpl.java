@@ -7,5 +7,6 @@ public class NewInterfaceImpl implements NewInterface {
     @Override
     public void test() {
         demo();
+        demo2();
     }
 }
