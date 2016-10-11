@@ -1,0 +1,98 @@
+h5.table-title {
+    margin-top:0;
+    margin-bottom:0;
+}
+.table-content {
+    margin-top:10px;
+}
+.search-bar {
+    margin-bottom:20px;
+}
+.navbar .title-bar {
+    line-height:35px;
+}
+h3.h-modal-title {
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+.dataTables_length {
+    float: left !important;
+}
+.fz-select {
+    width:100%;
+}
+.fz-sel-div {
+    padding-top: 5px;
+}
+.mail-container .mail-header .header-buttons li {
+    width: 45px;
+}
+.fz-file-box {
+    position: relative;
+    width: 410px;
+}
+
+.fz-file-txt {
+    height: 22px;
+    border: 1px solid #cdcdcd;
+    width: 180px;
+    vertical-align: middle;
+    margin: 0;
+    padding: 0
+}
+
+.fz-file-btn {
+    border: 1px solid #CDCDCD;
+    height: 24px;
+    width: 70px;
+    vertical-align: middle;
+    margin: 0;
+    padding: 0;
+}
+
+.fz-file-file {
+    position: absolute;
+    top: 0;
+    right: 150px;
+    height: 24px;
+    filter: alpha(opacity :   0);
+    opacity: 0;
+    width: 260px;
+    vertical-align: middle;
+    margin: 0;
+    padding: 0;
+}
+.databox .fz-databox-left-desc {
+    font-size: 12px;
+    line-height: 20px;
+}
+.fz-label {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.dataTables_length {
+    padding-top: 6px;
+}
+.dataTables_length select {
+    padding: 0;
+}
+.form-without-margin .form-group {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+div.datepicker {
+    z-index: 10000;
+}
+textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"] {
+    color: #000000;
+}
+textarea.form-control {
+    color: #000000;
+}
+.gap-progress{z-index: 20000}
+.gap-mask{position: fixed;top: 0;right: 0;bottom: 0;left: 0; z-index: 19999; background-color: #2F2F2F}
+
+
+.fz-required-span {
+    color: #dd0000;
+}

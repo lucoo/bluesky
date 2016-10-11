@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xml-body>
+    <html>
+        <head>
+        </head>
+        <body>
+            <p style="margin:0px;padding:0px;">
+                <strong style="font-size:14px;line-height:30px;color:#333333;
+                                font-family:arial,sans-serif;">您好：
+                </strong>
+            </p>
+            <div style="line-height:20px;height:20px;"></div>
+            <p style="margin:0px;padding:0px;line-height:30px;font-size:14px;color:#333333;
+                        font-family:'宋体',arial,sans-serif;">
+                您申请的产品：{0}
+            </p>
+            <p style="margin:0px;padding:0px;line-height:30px;
+                font-size:14px;color:#333333;font-family:'宋体',arial,sans-serif;">
+                <b style="font-size:18px;color:red">
+                    <span style="border-bottom:1px dashed #ccc;z-index:1">被驳回</span>
+                </b>
+            </p>
+            <p style="margin:0px;padding:0px;line-height:30px;font-size:14px;color:#333333;
+                        font-family:'宋体',arial,sans-serif;">
+                驳回原因：{1}
+            </p>
+        </body>
+    </html>
+</xml-body>

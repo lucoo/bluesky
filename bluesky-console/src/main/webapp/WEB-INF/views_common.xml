@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC
+        "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN"
+        "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+<tiles-definitions>
+    <definition name="empty-template" template="/WEB-INF/views/layouts/empty-template.jsp">
+        <put-attribute name="headInclude" value="/WEB-INF/views/layouts/tiles/head_include.jsp"/>
+        <put-attribute name="footInclude" value="/WEB-INF/views/layouts/tiles/foot_include.jsp"/>
+    </definition>
+    <definition name="main-template" template="/WEB-INF/views/layouts/main-template.jsp">
+        <put-attribute name="headInclude" value="/WEB-INF/views/layouts/tiles/head_include.jsp"/>
+        <put-attribute name="topbar" value="/WEB-INF/views/layouts/tiles/topbar.jsp"/>
+        <put-attribute name="loading" value="/WEB-INF/views/layouts/tiles/loading.jsp"/>
+        <put-attribute name="pageBreadCrumbs" value="/WEB-INF/views/layouts/tiles/page_breadcrumbs.jsp"/>
+        <put-attribute name="menu" value="/WEB-INF/views/layouts/tiles/menu.jsp"/>
+        <put-attribute name="footer" value="/WEB-INF/views/layouts/tiles/footer.jsp"/>
+        <put-attribute name="footInclude" value="/WEB-INF/views/layouts/tiles/foot_include.jsp"/>
+    </definition>
+    <definition name="desc-template" template="/WEB-INF/views/layouts/desc-template.jsp">
+        <put-attribute name="headInclude" value="/WEB-INF/views/layouts/tiles/head_include.jsp"/>
+        <put-attribute name="topbar" value="/WEB-INF/views/layouts/tiles/desc_topbar.jsp"/>
+        <put-attribute name="footer" value="/WEB-INF/views/layouts/tiles/footer.jsp"/>
+        <put-attribute name="footInclude" value="/WEB-INF/views/layouts/tiles/foot_include.jsp"/>
+    </definition>
+    <!-- 登录 -->
+    <definition name="/login" extends="empty-template">
+        <put-attribute name="content" value="/WEB-INF/views/login.jsp"/>
+    </definition>
+    <!-- 首页 -->
+    <definition name="/index" extends="main-template">
+        <put-attribute name="content" value="/WEB-INF/views/index.jsp"/>
+    </definition>
+    <!--邮件-->
+    <definition name="/mail/list" extends="main-template">
+        <put-attribute name="content" value="/WEB-INF/views/mail/mail.jsp"/>
+    </definition>
+</tiles-definitions>
